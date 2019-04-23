@@ -2,12 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './Greet';
+import Leet from './Leet'
+
 
 
 
 function App() {
   return (
-    <Greet greetMe="hey who the heck are you?"></Greet>
+    <div>
+      <Leet greetMe="hey who the heck are you?"></Leet>
+      <Greet myGreet="WWHAAT IS HAPPENING">
+      </Greet>
+    </div>
   );
 }
 
