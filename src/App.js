@@ -5,6 +5,7 @@ import Greet from './Greet';
 import Leet from './Leet'
 import Cipher from './Cipher';
 import BounceCounter from './BounceCounter';
+import ClickToAdd from './ClickToAdd';
 
 
 
@@ -16,7 +17,9 @@ function App() {
       <Greet myGreet="WWHAAT IS HAPPENING">
       </Greet>
       <Cipher theText="What WHERE AM I !?! I DONT UNDERSTAND!"></Cipher>
-      <BounceCounter></BounceCounter>
+      <BounceCounter countBy={4} lowerLimit={-220} upperLimit={280}></BounceCounter>
+      <BounceCounter countBy={25} lowerLimit={-500} upperLimit={2000}></BounceCounter>
+      <ClickToAdd></ClickToAdd>
     </div>
   );
 }
